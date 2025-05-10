@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Framelet Docs</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 2em auto; line-height: 1.6; }
+    h1 { color: #3b82f6; }
+  </style>
+</head>
+<body>
+<h1>Документация Skeleto</h1>
+  <p>Добро пожаловать в Skeleto - быстрый и простой Python веб фреймворк</p>
+
+  <h2>Как начать? </h2>
+  <p>Клонируйте этот репозиторий и в корне выполните: </p>
+  <pre><code>pip install .</code></pre>
+  <h2>Пример</h2>
+  <pre><code>from Skeleto import MiniFramework, Response
+
+app = MiniFramework()
+def hello():
+    return Response("Hello, Skeleto! ")
+app.urls['/'] = hello
+app.run()
+</code></pre>
+</body>
+</html>
