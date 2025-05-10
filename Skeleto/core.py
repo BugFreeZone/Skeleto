@@ -54,7 +54,7 @@ class Context:
                 self.form = dict(urllib.parse.parse_qsl(body))
 
 class App:
-    def __init__(self, docs=True):
+    def __init__(self, docs=False):
         self.urls = {}
         self.middlewares = []
         self.debug = False
