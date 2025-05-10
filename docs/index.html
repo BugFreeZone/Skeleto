@@ -16,9 +16,9 @@
   <p>Клонируйте этот репозиторий и в корне выполните: </p>
   <pre><code>pip install .</code></pre>
   <h2>Пример</h2>
-  <pre><code>from Skeleto import MiniFramework, Response
+  <pre><code>from Skeleto import App, Response
 
-app = MiniFramework()
+app = App()
 def hello():
     return Response("Hello, Skeleto! ")
 app.urls['/'] = hello
