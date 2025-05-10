@@ -1,0 +1,25 @@
+[project]
+name = "Skeleto"
+version = "1.0.0"
+description = "Минималистичный веб-фреймворк на Python"
+readme = "README.md"
+authors = [
+  { name = "BugFreeZone", email = "r96177385@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["web", "framework", "http", "minimal", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Internet :: WWW/HTTP :: HTTP Servers"
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/BugFreeZone/Skeleto"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
